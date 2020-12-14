@@ -1,0 +1,16 @@
+{
+    "development":{
+        "PORT": 3000,
+        "URI": "mongodb+srv://jesus_grey:ramoussa123II@cluster0-7lmc4.mongodb.net/testEval?retryWrites=true&w=majority",
+        "SECRET": "JustForTest",
+        "JWT_EXP":"120m",
+        "BASE_SERVER_URL": "http://localhost:3000/api"
+    },
+    "deployment": {
+        "PORT": 80,
+        "URI": "mongodb+srv://jesus_grey:ramoussa123II@cluster0-7lmc4.mongodb.net/testEval?retryWrites=true&w=majority",
+        "SECRET": "ARealSecret",
+        "JWT_EXP": "120m",
+        "BASE_SERVER_URL": "http://localhost:3000/api"
+    }
+}
